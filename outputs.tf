@@ -18,9 +18,9 @@
 #   value = local.project_role_bindings
 # }
 
-# output "restricted_iam_admin_bindings" {
-#   value = local.restricted_iam_admin_bindings
-# }
+output "restricted_iam_admin_bindings" {
+  value = local.restricted_iam_admin_bindings
+}
 
 # output "project_roles_needed_flat" {
 #   value = local.project_roles_needed_flat
